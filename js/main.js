@@ -1,9 +1,9 @@
-document.getElementById('dodaj').addEventListener('click',function(dodajTekst){
-    
+document.getElementById('dodaj').addEventListener('click',function dodajTekst(){
+
     document.getElementById('tekst').innerHTML = "Akademia 108";
 });
 
-document.getElementById('usun').removeEventListener('click',function(dodajTekst){
+document.getElementById('usun').addEventListener('click',function usunTekst(){
     
-    document.getElementById('tekst').innerHTML = "Akademia 108";
+    document.getElementById('tekst').innerHTML = "";
 });
